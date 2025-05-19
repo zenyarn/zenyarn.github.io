@@ -1,0 +1,42 @@
+name: Deploy Next.js site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # 当代码推送到 main 分支时触发
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    concurrency: # 新增：确保同一时间只有一个部署在运行
+      group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: true
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4 # 更新到 v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4 # 更新到 v4
+        with:
+          node-version: '18' # 您可以根据项目需求调整 Node.js 版本
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build project
+        run: yarn build
+        # 对于 <username>.github.io 仓库，通常不需要设置 BASE_PATH
+        # 如果您的仓库名是其他名称，例如 my-blog，并且您希望站点部署在 zenyarn.github.io/my-blog/
+        # 则需要在这里设置环境变量，并在 next.config.js 中配置 basePath
+        # env:
+        #   BASE_PATH: /your-repo-name
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out
+          # user_name: 'github-actions[bot]' # 可选：自定义提交者名称
+          # user_email: 'github-actions[bot]@users.noreply.github.com' # 可选：自定义提交者邮箱
+          # cname: your.custom.domain.com # 如果您使用自定义域名，请取消注释并配置
