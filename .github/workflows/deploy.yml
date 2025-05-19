@@ -8,6 +8,8 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions: # 新增：明确授予工作流程写入内容的权限
+      contents: write
     concurrency: # 新增：确保同一时间只有一个部署在运行
       group: ${{ github.workflow }}-${{ github.ref }}
       cancel-in-progress: true
