@@ -1,0 +1,238 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 2rem;
+  background: #1a1a1a;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #e6e6e6;
+}
+
+.main {
+  max-width: 800px;
+  width: 100%;
+  margin: 4rem auto;
+  padding: 2rem;
+  border-radius: 20px;
+  background: rgba(26, 26, 26, 0.7);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  animation: fadeIn 0.8s ease-out;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  position: relative;
+  display: inline-block;
+}
+
+.highlight {
+  color: #ffffff;
+  font-weight: 800;
+  position: relative;
+  z-index: 1;
+}
+
+.highlight::after {
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  z-index: -1;
+  border-radius: 4px;
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  color: #b3b3b3;
+  font-weight: 500;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.card {
+  padding: 1.8rem;
+  border-radius: 16px;
+  background: #252525;
+  transition: all 0.3s ease;
+  border: 1px solid #333333;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  animation: fadeIn 0.6s ease forwards;
+  opacity: 0;
+}
+
+.card:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.card:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.card:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  border-color: #666666;
+}
+
+.card h2 {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.card h2 i {
+  margin-right: 10px;
+  color: #cccccc;
+  font-size: 1.2rem;
+}
+
+.card h2::after {
+  content: '→';
+  margin-left: 8px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover h2::after {
+  transform: translateX(5px);
+}
+
+.card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #a0a0a0;
+}
+
+.footer {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #808080;
+  border-top: 1px solid #333333;
+}
+
+.enTitle {
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  margin-bottom: 2.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+.socialLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.socialLinks a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  padding: 0.7rem 1.2rem;
+  border-radius: 10px;
+  min-width: 220px;
+  justify-content: center;
+  background: #232323;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.socialLinks a i {
+  margin-right: 12px;
+  font-size: 1.3rem;
+  color: #b3b3b3;
+}
+
+.platformName {
+  font-weight: 600;
+  color: #fff;
+  margin-right: 8px;
+}
+
+.username {
+  color: #b3b3b3;
+  font-size: 1rem;
+}
+
+.socialLinks a:hover {
+  color: #fff;
+  background: #333;
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 1.5rem;
+    margin: 2rem auto;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+}

@@ -14,6 +14,16 @@
   font-named-instance: 'Italic';
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Inter var', system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
@@ -24,7 +34,12 @@ body {
   font-variation-settings: 'wght' 450;
   font-variant: common-ligatures contextual;
   letter-spacing: -0.02em;
+  line-height: 1.65;
+  overflow-x: hidden;
+  background-color: #1a1a1a;
+  color: #e6e6e6;
 }
+
 b,
 strong,
 h3,
@@ -40,12 +55,52 @@ h2 {
   font-variation-settings: 'wght' 750;
 }
 
+a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: #cccccc;
+}
+
+button,
+.button {
+  cursor: pointer;
+  border: none;
+  background: #404040;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+button:hover,
+.button:hover {
+  background: #555555;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 @media screen and (min-device-pixel-ratio: 1.5),
   screen and (min-resolution: 1.5dppx) {
   body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+}
+
+::selection {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 details summary {
@@ -57,9 +112,12 @@ img.next-image {
 }
 
 .prose a {
-  color: #0074de;
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
 }
 
 .nav-line .nav-link {
-  color: #69778c;
+  color: #cccccc;
 }

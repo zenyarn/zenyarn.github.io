@@ -1,5 +1,3 @@
-const withNextra = require('nextra')('nextra-theme-blog', './theme.config.js')
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export', // 确保静态导出已启用
@@ -8,4 +6,4 @@ const nextConfig = {
   }
 }
 
-module.exports = withNextra(nextConfig)
+module.exports = nextConfig
