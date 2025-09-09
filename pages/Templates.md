@@ -6,4 +6,5 @@
 	- tags:: #书籍
 	  authors::
 	  template:: book
+- {{embed [[tags]]}}
 -
