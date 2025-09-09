@@ -1,5 +1,5 @@
-- 人物
+- Page
 	- alias:: 
-	  身份:: 
-	  template:: 人物
+	  tags::
+	  template:: Page
 	-
