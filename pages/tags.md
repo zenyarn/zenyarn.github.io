@@ -1,4 +1,4 @@
-alias:: 标签
+alias:: 标签, types
 
 - 分类
 	- #哲学家
