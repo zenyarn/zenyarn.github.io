@@ -420,4 +420,5 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :graph/settings {:journal? false}
- :publishing/all-pages-public? true}
+ :publishing/all-pages-public? true
+ :preferred-format :markdown}
