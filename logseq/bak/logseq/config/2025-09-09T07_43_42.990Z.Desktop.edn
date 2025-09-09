@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites []
+ :favorites ["templates" "tags" "Templates"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -420,4 +420,5 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :graph/settings {:journal? false}
- :publishing/all-pages-public? true}
+ :publishing/all-pages-public? true
+ :preferred-format :org}

@@ -1,0 +1,13 @@
+* tags:: #废纸篓
+* *粗体*
+* /Italics/
+* +Strikethrough+
+* | 项目 | 数量 | 单价 | 总价 |
+|------|------|------|------|
+| A    | 2    | 50   | 100  |
+| B    | 3    | 30   | 90   |
+#+TBLFM: $4=$2*$3
+* #+BEGIN_SRC python
+print("Hello Org-mode")
+#+END_SRC
+*
