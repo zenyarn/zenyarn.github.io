@@ -1,5 +1,9 @@
-- Page
+- 页面
 	- alias:: 
 	  tags::
-	  template:: Page
-	-
+	  template:: page
+- 书籍
+	- tags:: #书籍
+	  authors::
+	  template:: book
+-
