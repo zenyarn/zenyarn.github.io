@@ -9,9 +9,9 @@ intro:: 存放准备试用的各种模板
 	  authors::
 	  template:: book
 - 任务
-	- alias::
+	- public:: false
+	  alias::
 	  tags:: #Tasks
-	  public:: false
 	  template:: task
 -
 - {{embed [[tags]]}}
