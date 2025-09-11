@@ -16,7 +16,8 @@ public:: false
 		- Someday maybe
 			- LATER 洗裤袜
 			- LATER 找自行车
-			- LATER 《习思想专业课》演讲
+			- #大学课程
+				- {{embed ((68c2890b-85cd-4566-82ec-6bcfce121fac))}}
 		- Projects
 			- DOING [[做一个开源版的Tana]]
 			  :LOGBOOK:
