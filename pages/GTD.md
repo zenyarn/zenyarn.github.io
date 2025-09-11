@@ -12,8 +12,9 @@ public:: false
 		- Calendar
 			- TODO 计组补考 [[Sep 14th, 2025]]
 		- Waiting for
-			- LATER 等待电动车换锁
+			- LATER 等待修车师傅来给电动车换锁
 		- Someday maybe
+			- LATER 洗裤袜
 			- LATER 找自行车
 			- LATER 《习思想专业课》演讲
 		- Projects
@@ -29,5 +30,20 @@ public:: false
 			  CLOCK: [2025-09-11 Thu 15:38:39]
 			  CLOCK: [2025-09-11 Thu 15:38:53]
 			  :END:
+			- #大学课程
+				- DOING [[操作系统]]
+				  :LOGBOOK:
+				  CLOCK: [2025-09-11 Thu 16:18:28]
+				  CLOCK: [2025-09-11 Thu 16:18:32]
+				  :END:
+				- DOING [[数字图像处理]]
+				  :LOGBOOK:
+				  CLOCK: [2025-09-11 Thu 16:19:14]
+				  :END:
+				- DOING [[习近平新时代中国特色社会主义思想概论]]
+				  :LOGBOOK:
+				  CLOCK: [2025-09-11 Thu 16:19:24]
+				  CLOCK: [2025-09-11 Thu 16:19:42]
+				  :END:
 	- Reflect
 -
