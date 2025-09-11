@@ -13,6 +13,8 @@ intro:: 存放准备试用的各种模板
 	  alias::
 	  tags:: #Tasks
 	  template:: task
--
+- Tips
+	- `public`必须放到第一行
+	-
 - {{embed [[tags]]}}
 -
