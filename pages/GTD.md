@@ -4,7 +4,7 @@ public:: false
 	- Capture
 	- Clarify & Organize
 		- Next Actions
-			- NOW [[准备计组补考]]
+			- NOW [[准备计组考试]]
 			  :LOGBOOK:
 			  CLOCK: [2025-09-11 Thu 15:35:18]
 			  CLOCK: [2025-09-11 Thu 15:35:21]
@@ -26,7 +26,7 @@ public:: false
 			  CLOCK: [2025-09-11 Thu 15:30:36]
 			  CLOCK: [2025-09-11 Thu 15:30:49]
 			  :END:
-			- DOING [[准备计组补考]]
+			- DOING [[准备计组考试]]
 			  :LOGBOOK:
 			  CLOCK: [2025-09-11 Thu 15:38:39]
 			  CLOCK: [2025-09-11 Thu 15:38:53]
