@@ -14,7 +14,9 @@ intro:: 存放准备试用的各种模板
 	  tags:: #Tasks
 	  template:: task
 - Tips
+	- `alias`、`public`、`template`是Logseq内置的具有特殊含义的属性
 	- `public`必须放到第一行
+	-
 	-
 - {{embed [[tags]]}}
 -

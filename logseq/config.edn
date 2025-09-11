@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["tags" "templates" "authors" "status" "notes" "人物" "产品" "卡片"]
+ :favorites ["updating..." "updating" "tags" "templates" "authors" "status" "notes" "人物" "产品" "卡片"]
 
  ;; Set flashcards interval.
  ;; Expected value:
