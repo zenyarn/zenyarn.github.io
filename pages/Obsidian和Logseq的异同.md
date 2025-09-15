@@ -11,10 +11,13 @@ tags:: #思考
 		  Obsidian以核心插件的形式支持“日记”功能，但该功能默认不开启
 		- Logseq开源，Obsidian不开源
 		- Logseq完全免费，Obsidian提供付费服务
+		- 想在Obsidian中实现和Logseq相似的体验理论上可行
+		  想在Logseq中实现和Obsidian相似的体验不可行
 - 同
 	- 主要的共通之处
 		- Obsidian和Logseq都是本地优先的笔记软件
 		- Obsidian和Logseq都以纯文本形式存储笔记
 			- 二者都默认采用markdown格式
+		- 都具有强大的插件系统
 	- 相对次要的共通之处
 		- Obsidian和Logseq都是基于Web技术构建的
