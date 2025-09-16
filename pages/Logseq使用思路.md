@@ -1,5 +1,3 @@
-filters:: {}
-
 - Logseq的特征
 	- 本地化
 	- 大纲式
@@ -42,3 +40,4 @@ filters:: {}
 		- `Journal Calendar`
 		- `Tags`
 		- `Vim Shortcuts`
+-
