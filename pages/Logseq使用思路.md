@@ -1,0 +1,44 @@
+filters:: {}
+
+- Logseq的特征
+	- 本地化
+	- 大纲式
+	- 双链
+	- 不支持目录管理
+	- 自带日志
+- 与Logseq相似的笔记软件
+	- Roam Research
+	- Obsidian
+- Logseq的设计和功能
+	- 知识库目录结构
+	- 笔记组织方式
+		- 大纲
+		- markdown
+	- 日志
+	- 双链
+		- 页面应用
+		- 页面嵌入
+		- 块引用
+		- 块嵌入
+	- 属性
+		- 属性的基础语法
+		- 特殊属性
+			- `alias`
+			- `template`
+			- `public`
+		- 我的自定义属性
+			- `tags`
+			- `authors`
+			- `intro`
+	- 模板
+	- Query
+	- 右侧边栏
+	- 块编辑
+		- `/`
+		- `<`
+	- 插件推荐
+		- `Git`
+		- `Heatmap`
+		- `Journal Calendar`
+		- `Tags`
+		- `Vim Shortcuts`
