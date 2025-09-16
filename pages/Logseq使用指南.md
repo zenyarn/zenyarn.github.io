@@ -1,20 +1,27 @@
-- Logseq的特征
-	- 本地化
-	- 大纲式
-	- 双链
-	- 不支持目录管理
-	- 自带日志
-- 与Logseq相似的笔记软件
-	- Roam Research
+alias:: Logseq功能介绍
+tags:: #视频文案
+
+- 如何理解Logseq这款笔记软件？
+	- [[Roam Research]] + [[Obsidian]]
+- Logseq的特点
+	- Obsidian & Roam Research
+		- 支持双链
 	- Obsidian
+		- 本地优先
+		- 纯文本存储
+	- Roam Research
+		- 大纲式
+		- 不支持文件夹管理
+		- 自带日志功能
 - Logseq的设计和功能
-	- 知识库目录结构
+	- Logseq图谱（Graph）的目录结构
+		- Obsidian 知识库 - Vault
 	- 笔记组织方式
 		- 大纲
 		- markdown
 	- 日志
 	- 双链
-		- 页面应用
+		- 页面引用
 		- 页面嵌入
 		- 块引用
 		- 块嵌入
@@ -39,5 +46,5 @@
 		- `Heatmap`
 		- `Journal Calendar`
 		- `Tags`
+			- tags
 		- `Vim Shortcuts`
--

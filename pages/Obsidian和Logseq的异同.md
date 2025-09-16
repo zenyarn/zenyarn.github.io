@@ -2,6 +2,7 @@ tags:: #思考
 
 - 异
 	- 本质差别
+	  id:: 68c01340-347a-4a09-8fb4-69d4dc33017f
 		- Obsidian支持基于目录的笔记管理
 		  Logseq会强制把笔记放在`pages`目录和`journals`目录
 		- Logseq是一款大纲式笔记软件
