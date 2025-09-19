@@ -13,10 +13,35 @@ intro:: 存放准备试用的各种模板
 	  alias::
 	  tags:: #Tasks
 	  template:: task
+- daily-checkbox
+	- 每日自查
+	  template:: dailycheck
+		- NOW 早起
+		  :LOGBOOK:
+		  CLOCK: [2025-09-19 Fri 11:32:28]
+		  CLOCK: [2025-09-19 Fri 11:32:34]
+		  :END:
+		- NOW 沐浴阳光
+		  :LOGBOOK:
+		  CLOCK: [2025-09-19 Fri 11:32:41]
+		  :END:
+		- NOW 与人为善
+		  :LOGBOOK:
+		  CLOCK: [2025-09-19 Fri 11:33:45]
+		  CLOCK: [2025-09-19 Fri 11:33:48]
+		  :END:
+		- NOW 保持专注
+		  :LOGBOOK:
+		  CLOCK: [2025-09-19 Fri 11:34:01]
+		  :END:
+		- NOW 早睡
+		  :LOGBOOK:
+		  CLOCK: [2025-09-19 Fri 11:33:30]
+		  CLOCK: [2025-09-19 Fri 11:33:33]
+		  :END:
 - Tips
 	- `alias`、`public`、`template`是Logseq内置的具有特殊含义的属性
 	- `public`必须放到第一行
-	-
 	-
 - {{embed [[tags]]}}
 -
