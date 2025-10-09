@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/hammerspoon-config.md",
+                "file": "pages/我希望持续维护的3个Git仓库.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hammerspoon-config"
+              "title": "我希望持续维护的3个Git仓库"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3e1dcdb7abba1e1a",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/hammerspoon-config.md",
+                "file": "pages/我希望持续维护的3个Git仓库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "hammerspoon-config 的反向链接列表"
+              "title": "我希望持续维护的3个Git仓库 的反向链接列表"
             }
           },
           {
@@ -114,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/hammerspoon-config.md",
+                "file": "pages/我希望持续维护的3个Git仓库.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "hammerspoon-config 的出链列表"
+              "title": "我希望持续维护的3个Git仓库 的出链列表"
             }
           },
           {
@@ -143,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/hammerspoon-config.md",
+                "file": "pages/我希望持续维护的3个Git仓库.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "hammerspoon-config 的大纲"
+              "title": "我希望持续维护的3个Git仓库 的大纲"
             }
           }
         ]
@@ -172,8 +171,32 @@
   },
   "active": "2eb33b04e0a6ff75",
   "lastOpenFiles": [
+    "journals/2025_10_07.md",
+    "pages/《人的行动》.md",
+    "pages/《经济学原理》.md",
+    "journals/2025_10_06.md",
+    "pages/第3章 - 网络体系结构与协议.md",
+    "journals/2025_09_29.md",
+    "journals/2025_09_28.md",
+    "pages/《如何阅读一本书》.md",
+    "journals/2025_09_27.md",
+    "journals/2025_09_26.md",
+    "pages/C++之父谈年轻人发展.md",
+    "journals/2025_09_25.md",
+    "journals/2025_09_24.md",
+    "journals/2025_09_23.md",
+    "journals/2025_09_22.md",
+    "pages/密集地行动.md",
+    "journals/2025_09_21.md",
+    "logseq/bak/journals/2025_09_19/2025-09-20T16_13_09.555Z.Desktop.md",
+    "logseq/bak/journals/2025_09_19",
+    "journals/2025_09_20.md",
+    "logseq/bak/logseq/config/2025-09-19T06_15_00.688Z.Desktop.edn",
+    "journals/2025_09_19.md",
+    "journals/2025_09_08.md",
+    "pages/hammerspoon-config.md",
+    "pages/我希望持续维护的3个Git仓库.md",
     "journals/2025_09_18.md",
-    "journals/2025_09_16.md",
-    "journals/2025_09_19.md"
+    "journals/2025_09_16.md"
   ]
 }

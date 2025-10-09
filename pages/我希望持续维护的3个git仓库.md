@@ -1,15 +1,19 @@
 tags:: #ZenYarn, #Idea
 
 - 三个仓库
-	- Logseq知识库
+	- Logseq知识库 - `zenyarn.github.io`
 		- 定位
 			- 我的个人知识库
 			- 把所学的各种零散知识不零散地整合到该知识库中
-	- VibeCodingLab知识库
+	- VibeCodingLab知识库 - `vibecoding-lab`
 		- 定位
+			- 记录我的编程学习笔记
 			- 整理我的个人练习项目
 			- 做一个持续优化，记录AI开发小项目过程的知识库
-	- AnyTag笔记软件
+	- AnyTag笔记软件 - `anytag`
 		- 定位
 			- 我的个人项目
 			- 一款开源、本地优先、AI驱动、高DIY、大纲式的笔记软件
+- 具体规划
+	- VibeCodingLab知识库
+		- {{embed [[做一个Vibe Coding知识库]]}}

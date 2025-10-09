@@ -16,28 +16,28 @@ intro:: 存放准备试用的各种模板
 - daily-checkbox
 	- 每日自查
 	  template:: dailycheck
-		- NOW 早起
+		- LATER 早起
 		  :LOGBOOK:
 		  CLOCK: [2025-09-19 Fri 11:32:28]
 		  CLOCK: [2025-09-19 Fri 11:32:34]
 		  :END:
-		- NOW 沐浴阳光
+		- LATER 沐浴阳光
 		  :LOGBOOK:
-		  CLOCK: [2025-09-19 Fri 11:32:41]
+		  CLOCK: [2025-09-19 Fri 11:32:41]--[2025-09-19 Fri 15:11:43] =>  03:39:02
 		  :END:
-		- NOW 与人为善
+		- LATER 与人为善
 		  :LOGBOOK:
 		  CLOCK: [2025-09-19 Fri 11:33:45]
-		  CLOCK: [2025-09-19 Fri 11:33:48]
+		  CLOCK: [2025-09-19 Fri 11:33:48]--[2025-09-19 Fri 15:11:45] =>  03:37:57
 		  :END:
-		- NOW 保持专注
+		- LATER 保持专注
 		  :LOGBOOK:
-		  CLOCK: [2025-09-19 Fri 11:34:01]
+		  CLOCK: [2025-09-19 Fri 11:34:01]--[2025-09-19 Fri 15:11:47] =>  03:37:46
 		  :END:
-		- NOW 早睡
+		- LATER 早睡
 		  :LOGBOOK:
 		  CLOCK: [2025-09-19 Fri 11:33:30]
-		  CLOCK: [2025-09-19 Fri 11:33:33]
+		  CLOCK: [2025-09-19 Fri 11:33:33]--[2025-09-19 Fri 15:11:50] =>  03:38:17
 		  :END:
 - Tips
 	- `alias`、`public`、`template`是Logseq内置的具有特殊含义的属性
